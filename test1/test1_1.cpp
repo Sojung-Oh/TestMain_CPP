@@ -45,8 +45,8 @@ int main() {
 	//std::cout << ptr2 << std::endl;
 
 	//-------------출력
-	char ch = 40; //아스키코드 번호에 대응되는 문자 출력
-	std::cout << ch << std::endl;
+	//char ch = 40; //아스키코드 번호에 대응되는 문자 출력
+	//std::cout << ch << std::endl;
 
 	//---------------입력
 
