@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#define MAIN2 //전처리기. 파일 속성에서 전처리기 속성 편집해서 자동처리 하게 할 수도 있지만 남이 보기엔 이게 제일 직관적
+//#define MAIN2 //전처리기. 파일 속성에서 전처리기 속성 편집해서 자동처리 하게 할 수도 있지만 남이 보기엔 이게 제일 직관적
 
 #ifdef MAIN2
 
@@ -253,6 +253,8 @@ case '/':
 		res = val_1 / val_2;
 		std::cout << "연산 결과는 " << res << "입니다." << std::endl;
 	}
+default:
+	std::cout << "연산자가 잘못 입력되었습니다." << std::endl;
 }
 
 
