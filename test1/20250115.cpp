@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#define MAIN3
+//#define MAIN3
 
 #ifdef MAIN3
 
